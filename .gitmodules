@@ -1,0 +1,6 @@
+[submodule "taffybar"]
+	path = taffybar
+	url = git@github.com:taffybar/taffybar.git
+[submodule "gtk3"]
+	path = gtk3
+	url = git@github.com:gtk2hs/gtk2hs.git

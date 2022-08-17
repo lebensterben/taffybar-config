@@ -19,7 +19,7 @@ maintainer:         lebensterben@users.noreply.github.com
 -- A copyright notice.
 -- copyright:
 -- category:
-extra-source-files: CHANGELOG.md
+-- extra-source-files: CHANGELOG.md
 
 executable my-taffybar
     main-is:          taffybar.hs
@@ -31,16 +31,10 @@ executable my-taffybar
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
     build-depends:    base
-                    , containers
-                    , directory
-                    , filepath
-                    , gtk3
-                    , gi-gtk
                     , gi-gtk-hs
                     , haskell-gi-base
                     , gi-gdk
                     , taffybar
-                    , X11
                     , text
                     , process
                     , transformers

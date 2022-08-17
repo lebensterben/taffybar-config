@@ -6,8 +6,7 @@
 
 # A warning or info to be displayed to the user on config load.
 # user-message: |
-  # Warning (added by new or init): Some packages were found to be incompatible with the resolver and have been left commented out in the packages section.
-  # You can omit this message by removing it from stack.yaml
+  # Warning (added by new or init): Some packages were found to be incompatible with the resolver and have been left commented out in the packages section. You can omit this message by removing it from stack.yaml
 
 # Resolver to choose a 'specific' stackage snapshot or a compiler version.
 # A snapshot resolver dictates the compiler version and the set of packages
@@ -22,7 +21,7 @@
 #
 # resolver: ./custom-snapshot.yaml
 # resolver: https://example.com/snapshots/2018-01-01.yaml
-resolver: lts-19.17
+resolver: lts-19.19
 
 # User packages to be built.
 # Various formats can be used as shown in the example below.
@@ -36,12 +35,6 @@ resolver: lts-19.17
 packages:
 - .
 - taffybar
-- gtk3/cairo
-- gtk3/gio
-- gtk3/glib
-- gtk3/tools
-- gtk3/gtk
-- gtk3/pango
 # The following packages have been ignored due to incompatibility with the
 # resolver compiler, dependency conflicts with other packages
 # or unsatisfied dependencies.

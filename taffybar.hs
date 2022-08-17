@@ -216,8 +216,8 @@ main = do
                 Gtk.toWidget ebox
 
         title = windowsNew defaultWindowsConfig
-            { getMenuLabel   = truncatedGetMenuLabel 50
-            , getActiveLabel = truncatedGetActiveLabel 50
+            { getMenuLabel   = truncatedGetMenuLabel 80
+            , getActiveLabel = truncatedGetActiveLabel 80
             }
 
         clock =

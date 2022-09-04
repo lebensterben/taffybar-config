@@ -26,7 +26,6 @@ jobs:
         with:
           ghc-version: "9.0.2"
           enable-stack: true
-          stack-version: "3.6.2"
 
       - name: Cache ~/.stack
         uses: actions/cache@v3

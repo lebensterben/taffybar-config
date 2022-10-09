@@ -104,7 +104,7 @@ colorGradient t
 
 readTemp :: IO Double
 readTemp = (/ 100000.0) . read <$> readFile
-    "/sys/devices/platform/coretemp.0/hwmon/hwmon3/temp1_input"
+    "/sys/class/thermal/thermal_zone2/temp"
 
 cpuCallback :: IO [Double]
 cpuCallback = do

@@ -8,11 +8,6 @@ on:
       - "**.cabal"
       - ".github/workflows/**"
   pull_request:
-    paths:
-      - "taffybar.hs"
-      - "stack.yaml"
-      - "**.cabal"
-      - ".github/workflows/**"
 
 jobs:
   build:

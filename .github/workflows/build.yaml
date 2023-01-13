@@ -46,6 +46,7 @@ jobs:
 
       - name: Install system dependencies
         run: >
+          sudo apt-get update
           sudo apt-get install libgirepository1.0-dev libwebkit2gtk-4.0-dev libgtksourceview-3.0-dev
           libdbusmenu-gtk3-dev libxss-dev
 
